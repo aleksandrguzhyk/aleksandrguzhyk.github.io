@@ -1,0 +1,22 @@
+body
+{
+  margin: 50px
+}
+h1 {text-align: center}
+.about_me
+{
+  border-bottom: 1px solid #999;
+  text-align: center;
+}
+.photo
+{
+  text-align: center;
+}
+.target
+{
+  border-bottom: 1px solid #999;
+}
+.contact_informations
+{
+  border-bottom: 1px solid #999;
+}
