@@ -1,34 +1,38 @@
-body
-{
+body {
   margin: 50px;
   background-color: #efefef;
   padding: 10px;
 }
-h1 {text-align: center}
-.about_me
-{
+
+h1 {
+  text-align: center}
+
+.about_me {
   border-bottom: 1px solid #999;
   text-align: center;
   padding: 10px;
 }
-.photo
-{
+
+.photo {
   text-align: center;
   padding: 10px;
+  border-radius: 30px;
 }
-.target
-{
+
+.img {
+  border-radius: 10px;
+}
+
+.target {
   border-bottom: 1px solid #999;
   padding: 10px;
 }
-.contact_informations
-{
+.contact_informations {
   border-bottom: 1px solid #999;
   background-color: white;
   box-shadow: 0 0 10px;
   padding: 10px;
 }
-.feedback
-{
+.feedback {
   padding: 10px;
 }
