@@ -1,4 +1,5 @@
 body {
+  width: 600px;
   margin: 50px;
   background-color: #efefef;
   padding: 10px;
@@ -9,7 +10,7 @@ h1 {
 
 .about_me {
   border-bottom: 1px solid #999;
-  text-align: center;
+  text-align: left;
   padding: 10px;
 }
 
