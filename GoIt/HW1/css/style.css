@@ -1,44 +1,60 @@
-body {
-  width: 600px;
-  margin: 50px;
+ body {
+  margin: 0;
   background-color: #efefef;
-  padding: 10px;
-}
-
-h1 {
+  padding: 0;
+  font-size: 16px;
+ }
+ h2 {
   text-align: center}
-
-.about_me {
-  border-bottom: 1px solid #999;
-  text-align: left;
-  padding: 10px;
-}
-
-.photo {
-  text-align: center;
-  padding: 10px;
-  border-radius: 30px;
-}
-
-.img {
-  border-radius: 10px;
-}
-
-.target {
-  border-bottom: 1px solid #999;
-  padding: 10px;
-}
-.contact_informations {
-  border-bottom: 1px solid #999;
+.card-box{
+  width: 550px;
+  margin: 5px auto 50px;
+  border-radius: 1px;
+  padding: 52px;
   background-color: white;
   box-shadow: 0 0 10px;
-  padding: 10px;
-  margin: 0 auto;
+  }
+.card-title {
+  text-align: center;
+  text-transform: capitalize;
 }
+.card-img {
+  text-align: center;
+}
+.card-img img {
+  border: 0;
+  border-radius: 10%;
+}
+.card-info {
+  border-bottom: 1px solid #999;
+  padding: 10px;
+  text-indent: 20px;
+}
+.card-info ul li {
+  text-indent: 0px;
+  margin-bottom: 10px;
+}
+.phone, .facebook {
+  padding-left: 20px;
+}
+.phone {
+   margin-bottom: 40px;
+ }
+ .phone p {
+   margin-bottom: 0;
+   text-indent: 0px;
+ }
+ .phone a {
+   text-decoration: none;
+   color: #000;
+ }
+ .facebook p {
+   margin-bottom: 0;
+   text-indent: 0px;
+ }
 .feedback {
-  padding: 10px;
+  padding-left: 20px;
 }
-
-.text {
-  margin-bottom: 30px;
+.feedback p {
+  margin-bottom: 10px;
 }
