@@ -1,0 +1,137 @@
+ .wraper {
+  width: 966px;
+  margin-left: 154px;
+  background-color: #ffffff;
+  padding: 0;
+  font-family: Open Sans, 'Arial', regular;
+ }
+
+ @font-face {
+   font-family: Open Sans;
+   src: url(../fonts/OpenSans-Regular.ttf);
+ }
+
+/*Header*/
+.menu {
+  position: relative;
+  overflow: hidden;
+  margin-top: 40px;
+  line-height: 26px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5e5e5e+0,444343+100 */
+background: rgb(94,94,94); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(94,94,94,1) 0%, rgba(68,67,67,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(94,94,94,1) 0%,rgba(68,67,67,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(94,94,94,1) 0%,rgba(68,67,67,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#444343',GradientType=0 ); /* IE6-9 */
+}
+.menu li {
+  text-decoration: none;
+  float: left;
+}
+
+.menu a {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 14px 40px;
+  text-decoration: none;
+  display: inline-block;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+.menu a:hover {
+  border-right: 1px solid #838383;
+  border-left: 1px solid #838383;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4a4a4a+0,2f2f2f+100 */
+background: rgb(74,74,74); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(74,74,74,1) 0%, rgba(47,47,47,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(74,74,74,1) 0%,rgba(47,47,47,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(74,74,74,1) 0%,rgba(47,47,47,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', endColorstr='#2f2f2f',GradientType=0 ); /* IE6-9 */
+}
+
+/*Content*/
+.content {
+  position: relative;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.sidebar {
+  width: 240px;
+  text-decoration: none;
+  float: left;
+}
+
+.info {
+  width: 678px;
+  float: right;
+}
+
+.side-menu {
+  border: 1px solid #c8c8c8;
+}
+
+.side-menu li:first-child {
+  border-top: none;
+}
+.side-menu li {
+  border-top: 1px solid #c8c8c8;
+}
+
+.side-menu a {
+  color: #7f7d7d;
+  line-height: 39px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.side-menu li:hover {
+  padding-left: 35px;
+  background-color: #f9f9f9;
+  }
+
+.velo-img {
+  text-align: center;
+  margin-bottom: 40px;
+  border: 0;
+}
+
+p {
+  padding: 0 24px;
+  color: #2c2c2c;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/*Foter*/
+.footer {
+  padding: 50px 0;
+  margin-top: 63px;
+  width: 966px;
+}
+
+.footer-menu {
+  position: relative;
+  overflow: hidden;
+  background-color: #e1e1e1;
+}
+
+.footer-menu li {
+  float: left;
+  list-style: none;
+  line-height: 40px;
+}
+
+.footer-menu a {
+  display: block;
+  padding: 0 50px;
+  color: #2c2c2c;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-menu .copy {
+  font-size: 14px;
+  padding-right: 26px;
+  float: right;
+}
