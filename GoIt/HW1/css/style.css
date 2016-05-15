@@ -31,7 +31,7 @@
   text-indent: 20px;
 }
 .card-info ul li {
-  text-indent: 0px;
+  text-indent: 0;
   margin-bottom: 10px;
 }
 .phone, .facebook {
@@ -42,7 +42,7 @@
  }
  .phone p {
    margin-bottom: 0;
-   text-indent: 0px;
+   text-indent: 0;
  }
  .phone a {
    text-decoration: none;
