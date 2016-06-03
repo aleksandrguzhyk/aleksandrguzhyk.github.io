@@ -1,0 +1,207 @@
+ body {
+   width: 1280px;
+   background-color: #f9f9f9;
+   background-image: url(../img/background.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   margin: 0 auto;
+   }
+
+ .wraper {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  box-shadow: 0 0 5px;
+ }
+
+/*HEADER*/
+.logo {
+  padding: 5px 0 0 26px;
+  float: left;
+  width: 225px;
+  height: 130px;
+}
+.contacts {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-right: 33px;
+  float: right;
+  color: #128aa7;
+  margin-bottom: 4px;
+}
+.contacts p {
+  font-weight: bold;
+  padding-left: 0;
+  color: #128aa7;
+  font-size: 12px;
+  font-family: tahoma;
+}
+
+.countries li {
+  clear: right;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.India {
+  margin-left: 326px;
+  width: 60px;
+  margin-bottom: 10px;
+}
+.Nepal  {
+  width: 60px;
+}
+.Tibet {
+  width: 60px;
+}
+.Bhutan {
+  width: 60px;
+}
+.Sri_Lanka {
+  width: 62px;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+.Maldives {
+  width: 60px;
+}
+.img {
+  border-top: 1px solid #128aa7;
+  border-bottom: 1px solid #128aa7;
+  color: blue;
+  clear: both;
+   }
+
+/*MENU*/
+#menu {
+  margin-top: 0;
+  width: 100%;
+  float: left;
+	list-style: none;
+	font-weight: bold;
+  border-bottom: 1px solid #000;
+  box-shadow: 2px 1px 5px gray, -1px 0 5px #000;
+  position: relative;
+  z-index: 500;
+}
+.main_menu li {
+	display: block;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  position: relative;
+  float: left;
+  background: #343434;
+  list-style: none;
+  z-index: 1;
+}
+.main_menu a {
+    padding: 2px 2px 5px 1px;
+    width: 139.85px;
+    display: block;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+span {
+    margin-left: 3px;
+    font-size: 10px;
+}
+.main_menu a:hover {
+    background: #343434;
+}
+.submenu {
+    margin-top: 4px;
+    list-style: none;
+    display: none;
+    position: absolute;
+    opacity: 0;
+    box-shadow: 0 0 4px 0 #000;
+}
+.submenu li {
+    padding-top: 1px;
+    background: #343434;
+}
+.main_menu > li:hover > .submenu {
+    display: block;
+    opacity: 1;
+}
+
+/*CONTENT*/
+.fon1 {  /* фон для левой колонки (серый) */
+width: 100%;
+background: #edeef0;
+float: left;
+position: relative;
+right: 61%;
+}
+.fon2 {/* фон для центральной колонки (белый) */
+width: 100%;
+background: #fff;
+float: left;
+position: relative;
+right: 20%;
+}
+.fon3 {/* фон для правой колонки (серый) */
+width: 100%;
+background: #edeef0;
+float: left;
+overflow: hidden;
+box-shadow: 1.5px 0 5px gray, -1px 0 5px #000, 0 3px 0 #000;
+}
+.sidebar {
+  padding-top: 5px;
+  width: 30%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  left: 80%;
+  text-decoration: none;
+}
+.info {
+  width: 30%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  left: 70%;
+}
+.news {
+  margin-left: 300px;
+  padding-top: 5px;
+  width: 35%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  left: 100.5%;
+}
+p {
+  padding: 0 24px;
+  color: #2c2c2c;
+  font-size: 14px;
+  line-height: 21px;
+}
+.news_name {
+  font-weight: bold;
+}
+.sidebar_names {
+  font-weight: bold;
+}
+div.info {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+/*FOOTER*/
+.footer {
+  padding: 10px 0 10px;
+  text-align: center;
+  clear: both;
+}
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  }
