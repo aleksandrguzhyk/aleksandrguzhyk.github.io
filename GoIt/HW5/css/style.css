@@ -12,12 +12,7 @@ body {
 
 /*MENU*/
 .menu {
-    width: 100%;
-    /*height: 100%;*/
-    background-image: url(../img/bg.jpg);
-    background-size: cover;
-    visibility: visible;
-    position: relative;
+    float: right;
     display: block;
     line-height: 36px;
     font-weight: bold;
@@ -29,9 +24,16 @@ body {
     float: left;
 }
 .wraper1 {
-    float: left;
-    width: 30%;
+    margin: 0 auto;
+    width: 100%;
     height: 35px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#085392+0,085392+50,07508e+51,07508e+100 */
+    background: #085392; /* Old browsers */
+background: -moz-linear-gradient(top,  #085392 0%, #085392 50%, #07508e 51%, #07508e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #085392 0%,#085392 50%,#07508e 51%,#07508e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #085392 0%,#085392 50%,#07508e 51%,#07508e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#085392', endColorstr='#07508e',GradientType=0 ); /* IE6-9 */
+
 }
 .main_menu li {
     position: relative;
@@ -187,7 +189,7 @@ span {
     content: "";
     display: inline-block;
     vertical-align: middle;
-    width: 70%;
+    width: 85%;
     height: 2px;
     position: relative;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#666666+0,666666+50,000000+51,000000+100 */
