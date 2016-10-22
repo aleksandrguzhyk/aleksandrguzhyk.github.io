@@ -1,0 +1,129 @@
+.section_A_fon {
+    background-color: #6e4c7c;
+    border-bottom: 2px solid #000;
+    height: 597px;
+}
+.section_A {
+    width: 320px;
+    height: 450px;
+    margin: 0 auto;
+    padding-top: 79px;
+
+  & h1 {
+    font-family: "League Gothic";
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  & p {
+    font-family: "Open Sans light";
+    font-size: 16px;
+    color: #c7c7ca;
+  }
+  & a {
+    float: right;
+    font-family: "League Gothic";
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
+.left_block {
+    float: left;
+    width: 250px;
+    margin-top: -9px;
+    margin-left: -51px;
+
+  & a {
+    margin-top: 15px;
+    margin-right: -11px;
+  }
+}
+.left_block_img {
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+    padding-top: 4px;
+}
+.left_block_text {
+    width: 195px;
+    height: 99px;
+    overflow: hidden;
+    float: left;
+
+  & h1 {
+    letter-spacing: -0.07px;
+  }
+  & p {
+    padding-top: 5px;
+    letter-spacing: -.1px;
+    line-height: 1.4;
+  }
+}
+
+.center_block {
+    float: left;
+    width: 250px;
+    margin-top: 25px;
+    margin-left: -51px;
+
+  & a {
+        margin-top: 15px;
+        margin-right: -11px;
+  }
+}
+
+.center_block_img {
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+    padding-top: 4px;
+}
+.center_block_text {
+    width: 195px;
+    height: 99px;
+    overflow: hidden;
+    float: left;
+
+  & h1 {
+    letter-spacing: -0.07px;
+  }
+  & p {
+    padding-top: 5px;
+    letter-spacing: -.1px;
+    line-height: 1.4;
+  }
+}
+
+.right_block {
+    float: left;
+    width: 250px;
+    margin-top: 41px;
+    margin-left: -51px;
+
+  & a {
+    margin-top: 15px;
+    margin-right: -11px;
+  }
+}
+.right_block_img {
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+    padding-top: 4px;
+}
+.right_block_text {
+    width: 195px;
+    height: 99px;
+    overflow: hidden;
+    float: left;
+
+  & h1 {
+    letter-spacing: -0.07px;
+  }
+  & p {
+    padding-top: 5px;
+    letter-spacing: -.1px;
+    line-height: 1.4;
+  }
+}

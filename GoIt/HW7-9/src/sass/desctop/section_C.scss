@@ -1,0 +1,55 @@
+.section_C_fon {
+    background-color: #e3e3e3;
+    border-top: 1px solid #f9f9f9;
+}
+.section_C {
+    width: 768px;
+    margin: 0 auto;
+}
+.sprites {
+    width: 960px;
+    height: 63px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 26px;
+    padding-bottom: 29px;
+
+  & li {
+    float: left;
+    background-image: url('../images/sprite.png');
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 80px;
+  }
+}
+.sprite_1 {
+    background-position: -10px -1px;
+}
+.sprite_2 {
+    background-position: -90px;
+    margin-top: -10px;
+    margin-left: 23px;
+}
+.sprite_3 {
+    background-position: -180px;
+    margin-top: -9px;
+    margin-left: 33px;
+}
+.sprites > .sprite_4 {
+    width: 80px;
+    background-position: -270px;
+    margin-top: -9px;
+    margin-left: 43px;
+}
+.sprites > .sprite_5 {
+    width: 130px;
+    background-position: -340px;
+    margin-top: -9px;
+    margin-left: 28px;
+}
+.sprite_6 {
+    background-position: -470px;
+    margin-top: -10px;
+    margin-left: 34px;
+}

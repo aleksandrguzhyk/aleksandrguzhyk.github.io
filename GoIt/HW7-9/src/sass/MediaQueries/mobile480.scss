@@ -1,0 +1,38 @@
+@media all and #{$mobile480} {
+    @import "../mobile";
+    header {
+        width: 480px;
+    }
+    .nav li {
+        display: none;
+    }
+    .iphone {
+        display: block;
+        margin-top: -160px;
+        margin-left: -10px;
+    }
+    .iphone img {
+        width: 190px;
+        height: 300px;
+    }
+    .section_A {
+        width: 480px;
+    }
+    .section_B {
+        width: 480px;
+    }
+    .section_C {
+        width: 480px;
+    }
+    .images {
+        width: 480px;
+    }
+    .section_D {
+        width: 480px;
+        display: block;
+    }
+    .footer_nav {
+        display: block;
+    }
+
+}

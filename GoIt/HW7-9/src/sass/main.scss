@@ -1,0 +1,38 @@
+@import 'mq';
+@import 'variables';
+
+.header, .nav, .article, .section, .aside, .footer, .menu {
+    display: block;
+}
+
+body {
+    width: 100%;
+    font-family: "Open Sans light", Tahoma, sans-serif;
+    @import "MediaQueries/main";
+}
+
+@font-face {
+	font-family: "League Gothic";
+	src: url('../fonts/LeagueGothicRegular.eot?#iefix') format('embedded-opentype'),
+	url(../font/LeagueGothicRegular.woff) format('woff'),
+	url(../ont/LeagueGothicRegular.ttf) format('ttf');
+}
+
+@font-face {
+	font-family: "Open Sans extra bold";
+	src: url('../fonts/OpenSansExtraBold.eot?#iefix') format('embedded-opentype'),
+	url(../font/OpenSansExtraBold.woff) format('woff'),
+	url(../ont/OpenSansExtraBold.ttf) format('ttf');
+}
+
+@font-face {
+	font-family: "Open Sans light";
+	src: url('../fonts/OpenSansLight.eot?#iefix') format('embedded-opentype'),
+	url(../font/OpenSansLight.woff) format('woff'),
+	url(../ont/OpenSansLight.ttf) format('ttf');
+}
+
+ .ie8 {
+     @import "desctop";
+     @import "ie8";
+ }
