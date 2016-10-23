@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JS_HW_5-6</title>
+            <link rel="stylesheet" href="css/reset.css">
+            <link rel="stylesheet" href="css/style.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+            <!-- Latest compiled and minified CSS -->
+		    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		    <!-- Optional theme -->
+		    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		    <!-- Latest compiled and minified JavaScript -->
+		    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="wraper">
+            <div class="form-group">
+                <header>
+                    <h1>stopwatch</h1>
+                </header>
+                <div class="body_timer col-sm-12">
+                    <p id="counter" class="form-control-static">00:00:00:000</p>
+                    <p id="counterMs">000</p>
+                </div>
+                <div class="col-sm-12">
+                <button type="button" id="startPause" class="btn btn-primary start-pause" onclick="Start" value="Start"/>Start</button>
+                <button type="button" id="split" class="btn btn-success split-not-active" onclick="Start" value="Start"/>Split</button>
+                <button  id="clear" type="button" class="btn btn-danger" onclick="Stop">Clear</button>
+                </div>
+            </div>
+            <div class="list" id="list"></div>
+        </div>
+        <script src="js/5_6.js"></script>
+    </body>
+</html>
