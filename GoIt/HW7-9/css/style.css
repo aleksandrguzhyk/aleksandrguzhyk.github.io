@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "League Gothic";
+    src: url('../fonts/LeagueGothicRegular.ttf');
+}
+
+@font-face {
+    font-family: "Open Sans light";
+    src: url('../fonts/OpenSansLight.ttf');
+}
+
+@font-face {
+    font-family: "Open Sans extra bold";
+    src: url('../fonts/OpenSansExtraBold.ttf');
+}
+
+.header_fon {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #33253a;
+}
+
+
+/*DISPLAY ... - 479 PX*/
+@media (max-width: 479px) {
+/*HEADER*/
+.header_fon {
+    height: 465px;
+}
+header {
+    width: 320px;
+    height: 278px;
+    margin: 0 auto;
+    font-family: "League Gothic";
+}
+.iphone {
+    display: none;
+}
+}
+
+
+/*DISPLAY 480 - 767 PX*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+.header_fon {
+    height: 465px;
+}
+.iphone {
+    display: none;
+}
+}
+
+
+/*DISPLAY 768 - 959 PX*/
+@media screen and (min-width: 768px) and (max-width: 959px) {
+.header_fon {
+    height: 817px;
+}
+}
+
+
+/*DISPLAY 960 - ... PX*/
+@media screen and (min-width: 960px) {
+.header_fon {
+    height: 846px;
+}
+}
