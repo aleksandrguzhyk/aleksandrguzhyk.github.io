@@ -1,0 +1,92 @@
+body {
+  background: #777;
+}
+.wraper {
+  width: 780px;
+  height: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.carousel-hider {
+  width: 600px;
+  overflow: hidden;
+  float: left;
+  padding-bottom: 100px;
+
+}
+
+.carousel-list {
+  list-style: none;
+  width: 10000px;
+  padding: 0px;
+  position: relative;
+}
+
+.carousel-element {
+  display: block;
+  margin-right: 25px;
+  float: left;
+}
+
+.carousel-element img {
+  max-width: 100px;
+}
+
+.carousel-arrow-left, .carousel-arrow-right {
+  float: left;
+}
+
+.carousel-arrow-left, .carousel-arrow-right {
+  float: left;
+  display: block;
+  border: 1px solid grey;
+  background-color: lightgrey;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+
+.carousel-arrow-left {
+  margin-right: 25px;
+}
+
+.carousel-arrow-right {
+  margin-left: 25px;
+}
+
+.clearfix {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.profile {
+  margin: 0 auto;
+  padding: 55px 60px 60px;
+  color: black;
+  height: 480px;
+  width: 500px;
+  background-color: white;
+  font-size: 16px;
+}
+
+.photo {
+  margin: 0 auto;
+}
+
+.photo img {
+  display: block;
+  margin: 0 auto;
+  height: 120px;
+  width: 120px;
+}
+
+.title {
+  border-top: 2px solid #000;
+  margin: 16px auto;
+}
