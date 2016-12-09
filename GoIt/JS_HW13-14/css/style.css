@@ -1,0 +1,16 @@
+.wrapper {
+  width: 600px;
+  height: 700px;
+  background: #d6d6d6;
+  margin: 0 auto;
+}
+
+#quiz {
+  padding: 50px;
+  height: 500px;
+  width: 400px;
+}
+
+.wrapper input[type="radio"] {
+margin-right: 6px;
+}
